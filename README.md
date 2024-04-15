@@ -1,2 +1,2 @@
 # dotfiles
-yoinkers wiil be processed 
+yoinkers wiil be processed.
