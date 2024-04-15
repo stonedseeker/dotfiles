@@ -1,0 +1,157 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$Delete">
+      <i c="1" l="1713142043729" />
+    </e>
+    <e n="$Paste">
+      <i c="4" l="1713134175616" />
+    </e>
+    <e n="$SelectAll">
+      <i c="10" l="1713143737990" />
+    </e>
+    <e n="$Undo">
+      <i c="59" l="1713144489514" />
+    </e>
+    <e n="Android.AdbDevicePairing">
+      <i c="1" l="1713110610243" />
+    </e>
+    <e n="BraceOrQuoteOut">
+      <i c="1" l="1713144244495" />
+    </e>
+    <e n="CloseProject">
+      <i c="1" l="1713110268888" />
+    </e>
+    <e n="Debug">
+      <i c="2" l="1713110582212" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="2018" l="1713147280516" />
+    </e>
+    <e n="EditorChooseLookupItem">
+      <i c="64" l="1713147209615" />
+    </e>
+    <e n="EditorChooseLookupItemReplace">
+      <i c="207" l="1713147207921" />
+    </e>
+    <e n="EditorCopy">
+      <i c="24" l="1713144954958" />
+    </e>
+    <e n="EditorCut">
+      <i c="6" l="1713147279683" />
+    </e>
+    <e n="EditorDown">
+      <i c="55" l="1713147281628" />
+    </e>
+    <e n="EditorEnter">
+      <i c="236" l="1713147282788" />
+    </e>
+    <e n="EditorEscape">
+      <i c="1" l="1713143776285" />
+    </e>
+    <e n="EditorLeft">
+      <i c="310" l="1713147215169" />
+    </e>
+    <e n="EditorLeftWithSelection">
+      <i c="91" l="1713144954570" />
+    </e>
+    <e n="EditorPaste">
+      <i c="50" l="1713147283824" />
+    </e>
+    <e n="EditorPasteFromX11">
+      <i c="1" l="1713145132139" />
+    </e>
+    <e n="EditorPreviousWordWithSelection">
+      <i c="1" l="1713140717068" />
+    </e>
+    <e n="EditorRight">
+      <i c="452" l="1713147262869" />
+    </e>
+    <e n="EditorRightWithSelection">
+      <i c="1" l="1713139563584" />
+    </e>
+    <e n="EditorTab">
+      <i c="19" l="1713146990941" />
+    </e>
+    <e n="EditorToggleInsertState">
+      <i c="4" l="1713140543459" />
+    </e>
+    <e n="EditorUnindentSelection">
+      <i c="2" l="1713144298632" />
+    </e>
+    <e n="EditorUp">
+      <i c="20" l="1713147107377" />
+    </e>
+    <e n="EditorUpWithSelection">
+      <i c="2" l="1713140881569" />
+    </e>
+    <e n="Find">
+      <i c="6" l="1713144604145" />
+    </e>
+    <e n="GotoDeclaration">
+      <i c="2" l="1713142472516" />
+    </e>
+    <e n="MoreRunToolbarActions">
+      <i c="1" l="1713143016402" />
+    </e>
+    <e n="NewProject">
+      <i c="4" l="1713144675572" />
+    </e>
+    <e n="RedesignedRunConfigurationSelector">
+      <i c="2" l="1713110573431" />
+    </e>
+    <e n="RenameElement">
+      <i c="1" l="1713134138492" />
+    </e>
+    <e n="Run">
+      <i c="18" l="1713146905327" />
+    </e>
+    <e n="SaveAll">
+      <i c="3" l="1713141901861" />
+    </e>
+    <e n="SearchEverywhere">
+      <i c="1" l="1713136938595" />
+    </e>
+    <e n="ShowIntentionActions">
+      <i c="4" l="1713139467361" />
+    </e>
+    <e n="ShowSettings">
+      <i c="1" l="1713133787428" />
+    </e>
+    <e n="Stop">
+      <i c="5" l="1713144651342" />
+    </e>
+    <e n="ToggleLineBreakpoint">
+      <i c="1" l="1713143421226" />
+    </e>
+    <e n="WelcomeScreen.CreateNewProject">
+      <i c="3" l="1713110271807" />
+    </e>
+    <e n="com.android.tools.adtui.workbench.AttachedToolWindow$SearchAction">
+      <i c="2" l="1713142266503" />
+    </e>
+    <e n="com.intellij.find.SearchReplaceComponent$CloseAction">
+      <i c="1" l="1713145183481" />
+    </e>
+    <e n="com.intellij.find.editorHeaderActions.NextOccurrenceAction">
+      <i c="1" l="1713144606960" />
+    </e>
+    <e n="com.intellij.openapi.editor.impl.EditorMarkupModelImpl$TrafficLightAction">
+      <i c="2" l="1713141829139" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
+      <i c="2" l="1713107606964" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+      <i c="7" l="1713144671570" />
+    </e>
+    <e n="com.intellij.refactoring.actions.RenameElementAction">
+      <i c="3" l="1713142218521" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
+      <i c="4" l="1713134277114" />
+    </e>
+    <e n="editRunConfigurations">
+      <i c="1" l="1713107360100" />
+    </e>
+  </component>
+</application>

@@ -1,0 +1,5 @@
+--return {
+--{ "LazyVim/LazyVim", import = "lazyvim.plugins" },
+--  { import = "plugins" },
+--{ "rose-pine/neovim", name = "rose-pine" }, -- Add this line to install Rosé Pine theme
+--}

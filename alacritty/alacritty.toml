@@ -1,0 +1,125 @@
+custom_cursor_colors = true
+live_config_reload = true
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+[colors.bright]
+black = "#928374"
+blue = "#83a598"
+cyan = "#8ec07c"
+green = "#b8bb26"
+magenta = "#d3869b"
+red = "#fb4934"
+white = "#ebdbb2"
+yellow = "#fabd2f"
+
+[colors.cursor]
+cursor = "#EBBCBA"
+text = "CellBackground"
+
+[colors.normal]
+black = "#282828"
+blue = "#458588"
+cyan = "#689d6a"
+green = "#98971a"
+magenta = "#b16286"
+red = "#cc241d"
+white = "#a89984"
+yellow = "#d79921"
+
+[colors.primary]
+background = "#282828"
+foreground = "#ebdbb2"
+
+[font]
+family="Hack Nerd Font Mono"
+size = 12.5
+
+[font.bold]
+family = "Input"
+style = "Bold"
+
+[font.bold_italic]
+family = "Input"
+style = "BoldItalic"
+
+[font.italic]
+family = "Input"
+style = "Italic"
+
+[font.normal]
+family = "Input"
+style = "Regular"
+
+[schemes.RosePine.bright]
+black = "0x6e6a86"
+blue = "0x9ccfd8"
+cyan = "0xebbcba"
+green = "0x31748f"
+magenta = "0xc4a7e7"
+red = "0xeb6f92"
+white = "0xe0def4"
+yellow = "0xf6c177"
+
+[schemes.RosePine.cursor]
+cursor = "0x524f67"
+text = "0xe0def4"
+
+[schemes.RosePine.hints.end]
+background = "#1f1d2e"
+foreground = "#6e6a86"
+
+[schemes.RosePine.hints.start]
+background = "#1f1d2e"
+foreground = "#908caa"
+
+[schemes.RosePine.line_indicator]
+background = "None"
+foreground = "None"
+
+[schemes.RosePine.normal]
+black = "0x26233a"
+blue = "0x9ccfd8"
+cyan = "0xebbcba"
+green = "0x31748f"
+magenta = "0xc4a7e7"
+red = "0xeb6f92"
+white = "0xe0def4"
+yellow = "0xf6c177"
+
+[schemes.RosePine.primary]
+background = "0x191724"
+foreground = "0xe0def4"
+
+[schemes.RosePine.selection]
+background = "0x403d52"
+text = "0xe0def4"
+
+[schemes.RosePine.vi_mode_cursor]
+cursor = "0x524f67"
+text = "0xe0def4"
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[shell]
+program = "/bin/fish"
+
+[window]
+decorations = "none"
+opacity = 0.8
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
+
+[window.dimensions]
+columns = 133
+lines = 31
+
+[window.padding]
+x = 7
+y = 5
+
