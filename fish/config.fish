@@ -17,6 +17,8 @@ if status is-interactive
     alias mann='tldr $1'
     alias lvim='/home/vybhv/.local/bin/lvim'
     alias siu "iw dev wlan0 link | grep -o 'tx bitrate: [0-9.]* MBit/s' | cut -d ' ' -f 3 | awk '{printf(\"%.2f MBps\\n\", \$1/8)}'"
+    alias kaam "cd /mnt/32F6E6CAF6E68D83/kaam/"
+    alias reva "cd /mnt/32F6E6CAF6E68D83/REVA/SEM\ VI/"
 
 
 
