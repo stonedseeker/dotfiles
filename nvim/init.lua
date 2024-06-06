@@ -23,3 +23,13 @@ vim.cmd([[augroup TerminalTransparency]])
 vim.cmd([[    autocmd!]])
 vim.cmd([[    autocmd TermOpen * setlocal winblend=100]])
 vim.cmd([[augroup END]])
+
+-- Set tab to indent 4 space characters
+-- Set the tab to insert four spaces
+vim.o.tabstop = 4
+vim.o.shiftwidth = 4
+vim.o.expandtab = true
+
+-- Map the tab key in visual mode to indent by 4 spaces
+vim.api.nvim_set_keymap("v", "<Tab>", ">gv", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("v", "<S-Tab>", "<gv", { noremap = true, silent = true })
