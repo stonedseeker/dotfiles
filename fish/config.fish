@@ -26,8 +26,11 @@ if status is-interactive
 
 
 
+
     # dotfiles
     # alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+    # sudo dd bs=4M if=Win11_23H2_English_x64v2.0.iso of=/dev/sdb status=progress oflag=sync
+
 
     # Auto Start Commands
     set -x fish_startup_command 'misfortune -o -as && starship init fish | source'
@@ -72,6 +75,10 @@ if status is-interactive
 
         # Enable CUDA_LAUNCH_BLOCKING for debugging
         set -x CUDA_LAUNCH_BLOCKING 1
+
+        set -x PATH /mnt/32F6E6CAF6E68D83/Downloads/apache-maven-3.8.6-bin/apache-maven-3.8.6/bin $PATH
+        set -x PATH /usr/lib/jvm/default/bin $PATH
+
 
     end
 end
