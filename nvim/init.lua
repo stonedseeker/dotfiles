@@ -4,6 +4,14 @@ require("plugins.colorscheme")
 --require("plugins.core")
 require("options")
 
+require("nvim-treesitter.configs").setup({
+  ensure_installed = { "java" }, -- Add any other languages you want here
+  highlight = {
+    enable = true, -- false will disable the whole extension
+  },
+  -- Add additional configuration if needed
+})
+
 -- Set transparency for all modes
 vim.cmd([[highlight Normal   ctermbg=NONE guibg=NONE]])
 vim.cmd([[highlight Visual   ctermbg=NONE guibg=NONE]])
