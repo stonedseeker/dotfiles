@@ -1,8 +1,12 @@
 -- bootstrap lazy.nvim, LazyVim and your plugins
 require("config.lazy")
 require("plugins.colorscheme")
---require("plugins.core")
+require("plugins.core")
 require("options")
+
+-- Lua configuration in init.lua
+local lspconfig = require("lspconfig")
+lspconfig.tsserver.setup({})
 
 require("nvim-treesitter.configs").setup({
   ensure_installed = { "java" }, -- Add any other languages you want here
