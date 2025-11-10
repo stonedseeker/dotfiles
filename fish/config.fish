@@ -8,7 +8,7 @@ if status is-interactive
     set fish_greeting ""
 
     # Aliases
-    alias ll='exa -lbh --icons --color=auto --group-directories-first'
+    alias ll='exa -lbh --icons --color=auto --group-directories-first --sort newest'
     alias la='exa -lah --icons --color=auto --group-directories-first'
     alias dev='cd ~/Documents/coding/;ll'
     alias data='cd /mnt/32F6E6CAF6E68D83/'
@@ -21,6 +21,7 @@ if status is-interactive
     alias reva "cd /mnt/32F6E6CAF6E68D83/REVA/SEM\ VI/"
     alias py /bin/python
     alias dsa "clear & cd /mnt/32F6E6CAF6E68D83/kaam/DSA/leetcode"
+    alias mm "free -m | grep Mem | awk '{print $4}'"
 
 
 
@@ -28,9 +29,11 @@ if status is-interactive
 
     # dotfiles
     # alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+    # sudo dd bs=4M if=Win11_23H2_English_x64v2.0.iso of=/dev/sdb status=progress oflag=sync
+
 
     # Auto Start Commands
-    set -x fish_startup_command 'misfortune -o -as && starship init fish | source'
+    set -x fish_startup_command 'misfortune -o -as && starship init fish | source | pokeget random --hide-name'
     source ~/.config/fish/functions/base16-shades-of-purple.fish
 
     if set -q fish_startup_command
@@ -73,5 +76,14 @@ if status is-interactive
         # Enable CUDA_LAUNCH_BLOCKING for debugging
         set -x CUDA_LAUNCH_BLOCKING 1
 
+        set -x PATH /mnt/32F6E6CAF6E68D83/Downloads/apache-maven-3.8.6-bin/apache-maven-3.8.6/bin $PATH
+        set -x PATH /usr/lib/jvm/default/bin $PATH
+
+        function sexy
+            echo "True That"
+        end
+
     end
 end
+eval (/home/vybhv/miniconda3/bin/conda shell.fish hook)
+source ~/miniconda3/etc/fish/conf.d/conda.fish
